@@ -8,6 +8,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.center {
+  text-align: center;
+}
+
 #wrap {
   min-height: 100%;
   height: auto !important;
