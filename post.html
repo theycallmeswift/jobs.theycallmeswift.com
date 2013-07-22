@@ -1,0 +1,66 @@
+---
+layout: default
+title: How to submit a job
+---
+<h2>Whoa there, hold your horses!</h2>
+
+<p>Before you can submit a job, we need to make sure it's something I'd even accept.  Take a look at the criteria below and make sure your job meets all of them first.  If you submit something that doesn't conform to the rules, you may find yourself permabanned for life.</p>
+
+<h3>Posting Requirements</h3>
+<br />
+<form id="submit-form">
+
+  <label for="joel-test">
+    <input type="checkbox" id="joel-test">
+    <span>My company scores <strong>at least</strong> an 11 in the <a href="http://www.joelonsoftware.com/articles/fog0000000043.html" target="_blank">Joel Test</a></span>
+  </label>
+
+  <label for="paid">
+    <input type="checkbox" id="paid">
+    <span>This is a paid position that <a href="https://blog.wealthfront.com/startup-employee-equity-compensation/" target="_blank">falls within industry standards</a>.</span>
+  </label>
+
+  <label for="tech">
+    <input type="checkbox" id="tech">
+    <span>My company uses modern technologies and standards.</span>
+  </label>
+
+  <label for="culture">
+    <input type="checkbox" id="culture">
+    <span>My company has a corporate culture that a hacker would enjoy.</span>
+  </label>
+
+  <label for="swift">
+    <input type="checkbox" id="swift">
+    <span>Swift would want this job if he was looking.</span>
+  </label>
+
+  <br />
+  <input type="submit" value="Submit Job" class="button success" disabled />
+
+</form>
+
+<script>
+  function popup(url) {
+    var newWindow =window.open(url,'name','');
+    if(window.focus) { newWindow.focus() }
+    return false;
+  }
+
+  $(document).ready(function() {
+    $('input[type=checkbox]').click(function(e) {
+      if($('input[type=checkbox]:not(:checked)').length === 0) {
+        $('input[type=submit]').prop('disabled', false);
+      } else {
+        $('input[type=submit]').prop('disabled', true);
+      }
+    });
+
+    $('#submit-form').submit(function(e) {
+      e.preventDefault();
+      var compose = "https://mail.google.com/mail/?extsrc=mailto&url=" + encodeURIComponent("mailto:?to=swift@theycallmeswift.com&subject=Job posting submission&body=Title:\nCompany:\nCompany Website:\nCompany Twitter:\nLocation:\nJob Type (Internship, Part Time, etc):\nDescription:\n".replace(/\+/g, "%2B"));
+      popup(compose);
+    });
+
+  });
+</script>
