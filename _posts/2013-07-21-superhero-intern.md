@@ -35,7 +35,7 @@ we're working on.  Some things you *might* find yourself doing could be:
  - Be able to write a coherent email / blog post.
  - Ability to manage your time and prioritize work skillfully.
  - Fast learner and self-starter.
- - Some sort of technical background (developer, designer, etc).
+ - Some sort of technical background or strong interest (developer, designer, etc).
 
 ### About Swift
 
