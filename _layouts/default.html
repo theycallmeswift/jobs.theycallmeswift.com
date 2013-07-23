@@ -15,9 +15,10 @@
   <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="/css/app.css" />
 
+  <meta property="og:site_name" content="Jobs :: They call me Swift" />
   <meta property="og:title" content="{{ page.title }}"/>
   <meta property="og:description" content="{{ site.description }}"/>
-  <meta property="og:type" content="website"/>
+  <meta property="og:type" content="{% if page.page_type %}{{ page.page_type }}{% else %}website{% endif %}"/>
   <meta property="og:image" content="{{ site.url }}/img/logo.png"/>
   <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
 
