@@ -31,6 +31,10 @@ ul, ol {
   margin-left: 20px;
 }
 
+ul.no-bullet, ol.no-bullet {
+  margin-left: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-family: "Open Sans", Helvetica, sans-serif;
