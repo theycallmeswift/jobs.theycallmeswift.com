@@ -3,8 +3,15 @@ layout: default
 post: true
 page_type: article
 ---
-<p class="supertitle">{{ page.type }} / {{ page.location }}</p>
-<h1><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
+<div class="row">
+  <div class="large-8 small-12 columns">
+    <p class="supertitle">{{ page.type }} / {{ page.location }}</p>
+    <h1><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
+  </div>
+  <p class="top-apply large-4 hide-for-small columns">
+    <a href="#" data-reveal-id="application-modal" class="small button ">Apply Now</a>
+  </p>
+</div>
 
 {{ content }}
 
