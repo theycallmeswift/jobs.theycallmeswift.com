@@ -19,4 +19,9 @@ $(document).ready(function() {
         $('#application-form').html('<div class="large-12 small-12 columns"><h2>Uh-oh, something went wrong!</h2><p>Looks like our API is down. Mind trying again in a few minutes?</p></div>');
       });
   });
+
+  // Email signup thankyou
+  if(window.location.hash == "#thankyou") {
+    $("#mc_embed_signup").html("<h3 class='center'>Thanks for signing up!</h3>");
+  }
 });
