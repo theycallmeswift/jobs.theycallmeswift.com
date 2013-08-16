@@ -20,18 +20,18 @@ and Meetups).
 
 ### About You
 
-Love promoting cool technology events and opportunities to others
-Have a strong passion for the Internet, technology and software
-Are highly productive and a motivated self-starter
-Possess excellent written and oral communication skills
-Have strong organizational skills
-Enjoy working in a fast-paced, collaborative team environment
-Additional qualifications:
+ - Love promoting cool technology events and opportunities to others
+ - Have a strong passion for the Internet, technology and software
+ - Are highly productive and a motivated self-starter
+ - Possess excellent written and oral communication skills
+ - Have strong organizational skills
+ - Enjoy working in a fast-paced, collaborative team environment
 
-Have experience working with developers
-Are a recent graduate or professional with 1-5 years work experience
-Have familiarity with online social networking tools
-Culture and location
+### Additional qualifications:
+
+ - Have experience working with developers
+ - Are a recent graduate or professional with 1-5 years work experience
+ - Have familiarity with online social networking tools
 
 ### About ChallengePost
 
@@ -49,13 +49,17 @@ We're more focused on deliverables than meetings. Everyone's opinion is
 respected, and all ideas are given equal consideration. It's a culture of
 meaningful work by dedicated, hard-working individuals, but the environment
 is relaxed and creative too. Our offices are in the Meatpacking District.
-Hours and compensation
 
-This is a full-time position.  Salary is commensurate with experience.
-Stock options & Great benefits.
+### Hours & compensation
+
+ - This is a full-time position
+ - Salary is commensurate with experience
+ - Stock options
+ - Great benefits
+
 
 <p class="center">
   <img src="{{ page.logo }}" /><br />
   <br />
-  <strong>Website</strong>: <a href="http://challengepost.com">challengepost.com</a> / <strong>Twitter</strong>: <a href="http://twitter.com/challengepost">@ChallengePost</a>
+  <strong>Website</strong>: <a href="http://challengepost.com/jobs">challengepost.com/jobs</a> / <strong>Twitter</strong>: <a href="http://twitter.com/challengepost">@ChallengePost</a>
 </p>
