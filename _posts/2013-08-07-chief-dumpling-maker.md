@@ -5,6 +5,7 @@ company: Dumplr
 location: New York
 type: Full-time
 logo: http://www.dumplr.com/wp-content/themes/dumplr/images/dumplr-logo.gif
+filled: true
 ---
 
 Create the next, greatest, and most innovative mobile dumpling infrastructure

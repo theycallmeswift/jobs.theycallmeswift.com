@@ -5,6 +5,7 @@ company: ChallengePost
 location: New York
 type: Full-time
 logo: "http://challengepost0.assetspost.com/assets/shared/ChallengePost_logo-b1d8468b99e10af0c79d389beff042d8.png"
+filled: true
 ---
 
 This is a superb marketing opportunity for a tech-savvy candidate who is

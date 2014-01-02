@@ -28,6 +28,8 @@ title: Jobs for hackers and other superheros
 <h3>Open Positions</h3>
 <ul class="listings no-bullet">
   {% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a><span class="hide-for-small">{{ post.location }}</span></li>
+    {% if post.filled != true %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a><span class="hide-for-small">{{ post.location }}</span></li>
+    {% endif %}
   {% endfor %}
 </ul>
