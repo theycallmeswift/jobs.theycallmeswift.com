@@ -10,7 +10,7 @@ logo: "http://s3.amazonaws.com/resumator/customer_20110208170226_LDWNM0CR2TMTU5Y
 *Back in 2011 & 2012, I actually had the pleasure of working at Crowdtap as an 
 engineer.  They truly have assembled one of the finest engineering teams
 around and have one of the best work environments you could ask for.  I
-learned a lot during my time there and thuroughly enjoyed it.  This gig 
+learned a lot during my time there and thoroughly enjoyed it.  This gig 
 comes with my highest recommendations.*
 
 *\- Swift*
