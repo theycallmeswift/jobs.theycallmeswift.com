@@ -7,9 +7,11 @@ type: Full-time
 logo: "http://s3.amazonaws.com/resumator/customer_20110208170226_LDWNM0CR2TMTU5YN/logos/20121126152737_crowdtap-resumator.png"
 ---
 
-*Note: I actually used to work at Crowdtap as an engineer.  I can personally
-attest that it's a great place to work and that they've assembled one of the best
-engineering teams around.  This gig comes with my highest recommendations.*
+*Back in 2011 & 2012, I actually had the pleasure of working at Crowdtap as an 
+engineer.  They truly have assembled one of the finest engineering teams
+around and have one of the best work environments you could ask for.  I
+learned a lot during my time there and thuroughly enjoyed it.  This gig 
+comes with my highest recommendations.*
 
 *\- Swift*
 
