@@ -56,7 +56,11 @@
     <div id="content" class="row">
       <div class="large-6 small-12 small-centered large-centered columns">
         <hr />
-        <em>Want to post a job? <a href="/post.html" title="Post a Job">Click Here</a>.</em>
+        {% if page.post %}
+          <p><strong>What is this site?</strong></p>
+          <p>This isn't your average job board.  It's a collection of gigs that will make your inner nerd giddy and leave you wondering why you ever settled for an average nine-to-fiver.  Nothing unpaid.  No recruiter spam.  Just gigs that I would have wanted to have myself.  See more gigs <a href="/">here</a>.</p>
+        {% endif %}
+        <p><em>Want to post a job? <a href="/post.html" title="Post a Job">Click Here</a>.</em></p>
       </div>
     </div>
   </footer>
