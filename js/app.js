@@ -4,10 +4,10 @@ $(document).ready(function() {
   form.submit(function(e) { e.preventDefault(); });
 
   form.on('valid', function () {
-    var values = form.clone().find("input, textarea").each(function() {  $(this).val() == "" && $(this).remove(); }).end().serialize();
+    form.hide();
+    $('.spinner').show();
 
-    form.hide()
-    $('.spinner').show()
+    var values = form.find("input, textarea").each(function() {  $(this).val() == "" && $(this).remove(); }).serialize();
 
     $.post("http://api.theycallmeswift.com/v1/applicants", values)
       .done(function(data) {
